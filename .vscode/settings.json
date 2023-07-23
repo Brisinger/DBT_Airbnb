@@ -1,0 +1,13 @@
+{
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
+    "[jinja-sql]": {
+        "editor.defaultFormatter": "innoverio.vscode-dbt-power-user",
+        "editor.formatOnSave": true
+      },
+    "terminal.integrated.env.osx": {
+        "DBT_PROFILES_DIR": "."
+    }
+}
